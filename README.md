@@ -10,7 +10,7 @@ Analista: Santiago
 Product Owner: Jess
 Scrum Master: Beatriz
 
-###### Proyecto: Ecommerce Ropa y accesorios para niños y niñas de 0 a 12 años. 
+##Proyecto: Ecommerce Ropa y accesorios para niños y niñas de 0 a 12 años. 
 
 Tarea: estudiar pag web de una marca de ropa de niños 
 
