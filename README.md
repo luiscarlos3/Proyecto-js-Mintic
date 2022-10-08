@@ -4,11 +4,11 @@
 
 ##### Roles
 
-Desarrollador : Juan Camilo
-Administrador Bd: Luis Carlos
-Analista: Santiago
-Product Owner: Jess
-Scrum Master: Beatriz
+- Desarrollador : Juan Camilo
+- Administrador Bd: Luis Carlos
+- Analista: Santiago
+- Product Owner: Jess
+- Scrum Master: Beatriz
 
 ## Proyecto: Ecommerce Ropa y accesorios para niños y niñas de 0 a 12 años. 
 
