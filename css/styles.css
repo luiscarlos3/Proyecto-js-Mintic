@@ -4,14 +4,14 @@
 /*Acá vamos a almacenar algunos valores semánticos para usar después en nuestros estilos*/
 :root {
     --green: hsl(162, 45%, 56%);
-    --lead: hsl(162, 2%, 56%);
+    --lead: hsl(165, 70%, 22%);
     --blue: hsl(220, 85%, 57%);
     --violet: hsl(272, 92%, 32%);
     --tex-white: hsl(0, 0%, 100%);
     --text-light-gray: hsl(0, 0%, 90%);
-    --body-bg-color: hsl(200, 54%, 12%);
-    --glass-bg-color: hsla(0, 0%, 100%, 0.05);
-    --border-color: hsla(0, 0%, 100%, 0.25);
+    --body-bg-color: #ff40a0;
+    --glass-bg-color: hsla(0, 40%, 30%, 0.05);
+    --border-color: hsla(0, 50%, 60%, 0.25);
     --blur: blur(10px);
     --button-hover-color: hsla(0, 0%, 0%, 0.3);
 }
@@ -44,7 +44,7 @@ body::before {
     border-radius: 50%;
     z-index: -1;
     filter: blur(150px);
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 body::before {
@@ -90,6 +90,9 @@ a {
     z-index: 1;
 }
 
+.form-content .circle-6,
+.form-content .circle-5,
+.form-content .circle-4,
 .form-content .circle-3,
 .form-content .circle-2,
 .form-content .circle-1 {
@@ -120,6 +123,27 @@ a {
     width: 50px;
     right: 10%;
     top: 10%;
+}
+
+.form-content .circle-4 {
+    height: 60px;
+    width: 60px;
+    left: -50%;
+    top: 48%;
+}
+
+.form-content .circle-5 {
+    height: 35px;
+    width: 35px;
+    right: -75%;
+    top: 68%;
+}
+
+.form-content .circle-6 {
+    height: 160px;
+    width: 160px;
+    right: -75%;
+    top: 21%;
 }
 
 .form-content .box {
