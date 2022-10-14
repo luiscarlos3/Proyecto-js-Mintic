@@ -4,14 +4,14 @@
 /*Acá vamos a almacenar algunos valores semánticos para usar después en nuestros estilos*/
 :root {
     --green: hsl(162, 45%, 56%);
-    --lead: hsl(165, 70%, 22%);
+    --lead: hsl(162, 2%, 56%);
     --blue: hsl(220, 85%, 57%);
     --violet: hsl(272, 92%, 32%);
     --tex-white: hsl(0, 0%, 100%);
     --text-light-gray: hsl(0, 0%, 90%);
-    --body-bg-color: #ff40a0;
-    --glass-bg-color: hsla(0, 40%, 30%, 0.05);
-    --border-color: hsla(0, 50%, 60%, 0.25);
+    --body-bg-color: hsl(200, 54%, 12%);
+    --glass-bg-color: hsla(0, 0, 100%, 0.05);
+    --border-color: hsla(0, 0%, 100%, 0.25);
     --blur: blur(10px);
     --button-hover-color: hsla(0, 0%, 0%, 0.3);
 }
@@ -130,6 +130,7 @@ a {
     width: 60px;
     left: -50%;
     top: 48%;
+    animation: movimiento 3.5s linear infinite;
 }
 
 .form-content .circle-5 {
@@ -137,6 +138,7 @@ a {
     width: 35px;
     right: -75%;
     top: 68%;
+    animation: movimiento 1.7s linear infinite;
 }
 
 .form-content .circle-6 {
@@ -144,6 +146,7 @@ a {
     width: 160px;
     right: -75%;
     top: 21%;
+    animation: movimiento 2.5s linear infinite;
 }
 
 .form-content .box {
@@ -249,3 +252,14 @@ a {
     }
 }
 
+@keyframes movimiento {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
